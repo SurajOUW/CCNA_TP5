@@ -52,7 +52,7 @@ __la route entre R2 et R1__
 __la route entre R2 et le switch__
 ````
 * On vérifie que les routes soient correctes : 
-
+````
 -Serveur 1 : 
 -- Route : 10.5.2.0/24 via 10.5.1.254 dev enp0s3
 
@@ -67,5 +67,5 @@ __la route entre R2 et le switch__
 
 -Client 2 : 
 -- Route : 10.5.1.0/24 via 10.5.2.254 dev enp0s3
-
+````
 ## III DHCP
