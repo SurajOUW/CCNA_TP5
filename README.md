@@ -26,7 +26,7 @@ On les fermes à nouveau puis on va configurer les routeurs (double clic dessus 
 ## II Lancement et configuration du lab
 
 __!!! La première ligne de chaques paragraphes de commandes contient un point pour pas que la commande # conf t soit affiché en majuscule à cause du format .md ne pas en tenir compte s'il vous plaîîît !!!__
-
+````
 .# conf t
 (config)# interface ethernet 0/1
 (config-if)# ip address 10.5.1.254 255.255.255.0
@@ -50,7 +50,7 @@ __la route entre R2 et R1__
 (config-if)# ip address 10.5.2.254 255.255.255.0
 (config-if)# no shut
 __la route entre R2 et le switch__
-
+````
 * On vérifie que les routes soient correctes : 
 
 -Serveur 1 : 
